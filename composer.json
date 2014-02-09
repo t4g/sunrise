@@ -1,0 +1,23 @@
+{
+    "name": "t4g/sunrise",
+    "description": "Sunrise is an open-source and OOP-based plugin framework. It can help you to make unlimited number of fast and powerful options pages with native look in your WordPress plugins or themes. It was designed to speed up plugin deployment and development, together with sufficient functionality.",
+    "minimum-stability": "stable",
+    "version":"6.0.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "vendor-dir": "composed",
+        "bin-dir": "bin"
+    },
+    "authors": [
+        {
+            "name": "Vladimir Anokhin",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["sunrise/lib"]
+    }
+}
